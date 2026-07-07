@@ -1,0 +1,39 @@
+{
+  "best_model": "logistic_regression",
+  "target_col": "pitch_type",
+  "numeric_features": [
+    "num_points",
+    "duration_frames",
+    "tracked_fraction",
+    "anchor_count",
+    "avg_speed_px_per_frame",
+    "max_speed_px_per_frame",
+    "speed_std",
+    "path_length_px",
+    "direct_distance_px",
+    "straightness_ratio",
+    "max_perpendicular_deviation_px",
+    "mean_abs_perpendicular_deviation_px",
+    "quadratic_curvature_y_of_x",
+    "net_dx_px",
+    "net_dy_px",
+    "avg_vx_px_per_frame",
+    "avg_vy_px_per_frame"
+  ],
+  "categorical_features": [
+    "pitcher_handedness",
+    "video_angle_id"
+  ],
+  "classes": [
+    "changeup",
+    "curveball",
+    "fastball"
+  ],
+  "num_samples": 30,
+  "class_counts": {
+    "fastball": 10,
+    "changeup": 10,
+    "curveball": 10
+  },
+  "note": "This is a baseline proof-of-concept classifier. With small datasets, accuracy is noisy and should not be treated as reliable."
+}
