@@ -1,0 +1,15 @@
+status: ok
+num_points: 87
+first_frame: 24
+last_frame: 110
+duration_sec: 0.7166666666666667
+avg_speed_px_per_frame: 6.85111936223876
+max_speed_px_per_frame: 27.574861281320388
+path_length_px: 589.1962651525333
+direct_distance_px: 222.1618431769815
+straightness_ratio: 0.3770591504334594
+max_perpendicular_deviation_px: 44.57774130505999
+quadratic_curvature_y_of_x: 0.0014448503809360667
+anchor_count: 11
+heuristic_label: breaking-ball-like/curved
+note: Heuristic only. Reliable pitch classification requires labeled examples and full trajectory.

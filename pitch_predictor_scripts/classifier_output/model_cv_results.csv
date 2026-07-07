@@ -1,0 +1,4 @@
+model,cv_splits,mean_accuracy,std_accuracy,cross_val_predict_accuracy
+logistic_regression,5,0.7,0.19436506316151006,0.7
+svm_rbf,5,0.7,0.19436506316151006,0.7
+random_forest,5,0.6666666666666666,0.0,0.6666666666666666

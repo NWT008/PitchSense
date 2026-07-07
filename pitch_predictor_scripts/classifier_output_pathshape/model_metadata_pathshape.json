@@ -1,0 +1,56 @@
+{
+  "best_model": "svm_pathshape",
+  "target": "pitch_type",
+  "numeric_features": [
+    "avg_speed_px_per_frame",
+    "speed_std",
+    "abs_net_dx_px",
+    "abs_net_dy_px",
+    "total_movement_px",
+    "vertical_to_horizontal_ratio",
+    "horizontal_to_vertical_ratio",
+    "max_perpendicular_deviation_px",
+    "mean_abs_perpendicular_deviation_px",
+    "quadratic_curvature_y_of_x",
+    "abs_quadratic_curvature",
+    "straightness_ratio",
+    "early_dx_px",
+    "middle_dx_px",
+    "late_dx_px",
+    "early_dy_px",
+    "middle_dy_px",
+    "late_dy_px",
+    "early_to_late_dx_change_px",
+    "early_to_late_dy_change_px",
+    "slope_change_late_minus_early",
+    "horizontal_return_px",
+    "horizontal_return_ratio",
+    "arm_side_net_dx_px",
+    "arm_side_return_px",
+    "late_arm_side_dx_px",
+    "pattern_curveball_score",
+    "pattern_fastball_score",
+    "pattern_changeup_score"
+  ],
+  "categorical_features": [
+    "pitcher_handedness",
+    "movement_category",
+    "horizontal_category",
+    "vertical_category",
+    "shape_category",
+    "horizontal_return_category",
+    "arm_side_return_category"
+  ],
+  "classes": [
+    "changeup",
+    "curveball",
+    "fastball"
+  ],
+  "num_samples": 30,
+  "class_counts": {
+    "fastball": 10,
+    "changeup": 10,
+    "curveball": 10
+  },
+  "note": "Path-shape classifier using early/middle/late movement and horizontal-return features."
+}
